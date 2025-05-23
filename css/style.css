@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-flow: column;
@@ -5,5 +11,56 @@ body {
 }
 
 img {
-    width: 300px;
+    width: 500px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+.logo {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links>* {
+    padding: 10px;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.container1 {
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+.title {
+    flex: 0 35%;
+}
+
+.title button {
+    background-color: #3882F6;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 8px 32px;
 }
