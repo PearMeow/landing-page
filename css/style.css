@@ -19,26 +19,28 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 25px;
+    padding: 30px 210px;
     background-color: #1F2937;
     color: #FFF;
 }
 
 .logo {
     padding: 10px;
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 900;
 }
 
 .links {
-    font-size: 18px;
+    margin-left: auto;
     display: flex;
     justify-content: space-evenly;
 }
 
 .links>* {
     padding: 10px;
+    font-size: 24px;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .container1,
